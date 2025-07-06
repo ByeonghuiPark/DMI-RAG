@@ -1,0 +1,7 @@
+langchain
+langchain_community
+gradio
+faiss-cpu
+sentence-transformers
+llama-cpp-python
+pypdf

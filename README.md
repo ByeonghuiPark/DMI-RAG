@@ -7,7 +7,7 @@ This repository contains a simple Retrieval-Augmented Generation (RAG) example i
 Install dependencies with pip:
 
 ```bash
-pip install langchain langchain_community gradio faiss-cpu sentence-transformers llama-cpp-python pypdf
+pip install -r requirements.txt
 ```
 
 Place your GGUF model file under `./models` or set the environment variable `LLM_MODEL_PATH` to the model location. The default path is `./models/EEVE-Korean-10.8B.gguf`.
